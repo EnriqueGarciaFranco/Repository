@@ -52,9 +52,9 @@ for i in range(steps):
     
     n_base = molarity_base * V_base_dis #mol_base
     
-    m_base_dis = density_dis_estimated * V_base_dis #kg_base_dis
+    m_base_dis = density_dis_estimated * V_base_dis #g_base_dis
     
-    m_water_base = m_base_dis - MW_base * V_base_dis #kg_water
+    m_water_base = m_base_dis - MW_base * V_base_dis #g_water
     
         
     #Initialize a thermodynamic database
@@ -84,7 +84,7 @@ for i in range(steps):
     
     problem.setPressure(P, P_units)
     
-    problem.add('H2O(l)', m_water_base, 'kg')
+    problem.add('H2O(l)', m_water_base, 'g')
     
     problem.add('CO2(g)', n_acid, 'mol')
     
