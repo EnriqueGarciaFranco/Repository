@@ -1,0 +1,11 @@
+name: streamlit
+
+channels:
+- conda-forge
+
+dependencies:
+- reaktoro
+- streamlit
+- numpy
+- pandas
+- matplotlib-base
