@@ -1,4 +1,4 @@
-name: streamlit
+name: streamlit-env
 
 channels:
 - conda-forge
