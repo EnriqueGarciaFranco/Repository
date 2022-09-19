@@ -1,4 +1,4 @@
-name: streamlit-env
+name: reaktoro
 
 channels:
 - conda-forge
