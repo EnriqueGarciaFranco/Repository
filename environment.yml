@@ -1,3 +1,5 @@
+name: my-streamlit-app
+
 channels:
 - conda-forge
 
